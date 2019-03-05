@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jdk:
+    build:
+      context: ./docker/jdk
+      dockerfile: Dockerfile
+  nginx:
+    build:
+      context: ./docker/nginx
+      dockerfile: Dockerfile
+    ports:
+      - "81:80"
