@@ -1,4 +1,4 @@
-# Liferay NAS 2015 - ELK: Unlocking Your Data's Potential
+# ELK - Elasticsearch Logstash Kibana
 
 ## Apache (for Liferay)
 Add the below in the `log_config_module` section with the other log configurations. This is the format that the logstash apache configuration file will parse.
